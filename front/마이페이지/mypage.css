@@ -97,49 +97,59 @@ label{
 
 .img-iu{
   width: 150px;
-  margin-left: 2px;
-  margin-top: 20px;
+  margin-left: -230px;
+  margin-top: -10px;
 }
 .img-iu2{
   width: 150px;
-  margin-left: 50px;
+  display: flex;
+  margin-left: 11em;
+  margin-top: -13em;
 }
 .img-1{
   width: 150px;
-  margin-left: 2px;
+  margin-left: -14.5em;
+  margin-top: 4em;
 }
 .img-2{
   width: 150px;
-  margin-left: 50px;
-  margin-top: 20px;
+  margin-left: 9em;
+  margin-top: -14em;
 }
 .img-3{
   width: 150px;
-  margin-left: 2px;
-  margin-top: 20px;
+  margin-left: -14.5em;
+  margin-top: 3em;
 }
 .img-4{
+  display: flex;
   width: 150px;
-  margin-left: 50px;
+  margin-left: 11em;
+  margin-top: -14em;
 }
 .img-5{
+  display: flex;
   width: 110px;
-  margin-top: 20px;
-  margin-left: 2px;
+  margin-top: 4em;
+  margin-left: 0.6em;
 }
 .img-6{
+  display: flex;
   width: 110px;
-  margin-left: 90px;
+  margin-left: 12em;
+  margin-top: -23em;
 }
 .img-7{
+  display: flex;
   width: 110px;
-  margin-top: 20px;
-  margin-left: 25px;
+  margin-top: 5em;
+  margin-left: 0.7em;
 }
 .img-8{
-  width: 150px;
-  margin-bottom: 70px;
-  margin-left: 70px;
+  display: flex;
+  width: 110px;
+  margin-left: 12em;
+  margin-top: -22em;
 }
 
 li{
@@ -148,4 +158,10 @@ li{
 
 .view{
   cursor: pointer;
+}
+
+.list li.is-hidden {
+  opacity: 0;
+  height: 0;
+  margin: 0;
 }
