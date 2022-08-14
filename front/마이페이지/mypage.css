@@ -9,7 +9,8 @@ body{
   background-color: #DFDDD8;
   width: 420px;
   margin: 0 auto;
-  
+  overflow: scroll;
+  height: 100vh;
 }
 
 .Logo {
@@ -57,6 +58,15 @@ body{
   width: 370px;
   height: 30px;
   border-radius: 5px;
+  border: solid;
+  margin-left: 12px;
+}
+label{
+  cursor: pointer;
+  font-size: 1em;
+}
+#chooseFile{
+  visibility: hidden;
 }
 .view{
   background-color: #E0E06B;
@@ -83,4 +93,59 @@ body{
 .view-but{
   margin-left: 22em;
   margin-top: -2.5em;
+}
+
+.img-iu{
+  width: 150px;
+  margin-left: 2px;
+  margin-top: 20px;
+}
+.img-iu2{
+  width: 150px;
+  margin-left: 50px;
+}
+.img-1{
+  width: 150px;
+  margin-left: 2px;
+}
+.img-2{
+  width: 150px;
+  margin-left: 50px;
+  margin-top: 20px;
+}
+.img-3{
+  width: 150px;
+  margin-left: 2px;
+  margin-top: 20px;
+}
+.img-4{
+  width: 150px;
+  margin-left: 50px;
+}
+.img-5{
+  width: 110px;
+  margin-top: 20px;
+  margin-left: 2px;
+}
+.img-6{
+  width: 110px;
+  margin-left: 90px;
+}
+.img-7{
+  width: 110px;
+  margin-top: 20px;
+  margin-left: 25px;
+}
+.img-8{
+  width: 150px;
+  margin-bottom: 70px;
+  margin-left: 70px;
+}
+
+li{
+  list-style: none;
+}
+
+.view{
+  cursor: pointer;
 }
