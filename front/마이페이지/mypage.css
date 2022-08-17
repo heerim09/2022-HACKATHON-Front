@@ -38,7 +38,7 @@ body{
   overflow: hidden;
 }
 
-#circle{
+#img{
   border: solid;
   border-width: 1.5px;
   border-radius: 50%;
@@ -48,6 +48,7 @@ body{
   margin: auto;
   position: relative;
   top: 4em;
+  overflow: hidden;
 }
 
 .page-text{
